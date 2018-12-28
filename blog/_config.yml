@@ -82,3 +82,18 @@ deploy:
   type: git
   repo: git@github.com:SwayYe/SwayYe.github.io.git
   branch: master
+
+# 添加豆瓣主頁
+douban:
+  user: 183019582
+  builtin: false
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 10000 
