@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: 一葉扁舟　    #网站标题
+subtitle: 一葉扁舟誰念我，今日天涯漂泊         #网站副标题 
+description:  一个再普通不过的平凡人           #网站描述
 keywords:
-author: Sway Ye
-language: 
+author: Sway Ye         #博主的名字
+language: zh-CN         #网站使用的语言
 timezone:
+since: 2018
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
