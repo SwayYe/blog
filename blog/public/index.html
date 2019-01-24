@@ -49,6 +49,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -853,12 +879,24 @@
                 
               
 
-              <time title="创建时间：2019-01-11 20:45:47 / 修改时间：23:08:50" itemprop="dateCreated datePublished" datetime="2019-01-11T20:45:47+01:00">2019-01-11</time>
+              <time title="创建时间：2019-01-11 20:45:47" itemprop="dateCreated datePublished" datetime="2019-01-11T20:45:47+01:00">2019-01-11</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-24 23:34:52" itemprop="dateModified" datetime="2019-01-24T23:34:52+01:00">2019-01-24</time>
               
             
           </span>
@@ -903,7 +941,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">272</span>
+                <span title="本文字数">337</span>
               
 
               
@@ -938,13 +976,7 @@
 
       
         
-          
-          在网站右上角添加github图标一共有两种不同的样式，见下图：
-
-挑选自己喜欢的图标你可以从这里挑选图片样式的图标或者从这里挑选文字样式的图标。挑选完之后，复制对应的代码。
-添加到_layout.swig打开文件themes/next/layout/_layout.swig，找到&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;那一行，把之前复制的代码黏贴进去，同时把href=&quot;https://your-url&quot;中的网址改成自己的github网址，部署后即可看到效果。
-
-          
+          <p>你应该也发现了，我的博客右上角有一个github的图标，点击就可以访问我的github主页，如果你也想要添加的话，可以这样做：</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -952,7 +984,7 @@
                 阅读全文 &raquo;
               </a>
             </div>
-          
+         
           <!--/noindex-->
         
       
@@ -1057,12 +1089,24 @@
                 
               
 
-              <time title="创建时间：2019-01-11 20:24:45 / 修改时间：20:34:57" itemprop="dateCreated datePublished" datetime="2019-01-11T20:24:45+01:00">2019-01-11</time>
+              <time title="创建时间：2019-01-11 20:24:45" itemprop="dateCreated datePublished" datetime="2019-01-11T20:24:45+01:00">2019-01-11</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-24 23:31:37" itemprop="dateModified" datetime="2019-01-24T23:31:37+01:00">2019-01-24</time>
               
             
           </span>
@@ -1142,16 +1186,7 @@
 
       
         
-          
-          效果预览我在自己博客中并未使用Next主题自带的背景动态效果，而是用了如下效果的动态背景
-
-具体操作步骤如下：
-修改_layout.swig找到themes\next\layout\_layout.swig文件，添加内容：
-在&lt;body&gt;中添加：
-123&lt;div class="bg_content"&gt;  &lt;canvas id="canvas"&gt;&lt;/canvas&gt;&lt;/div&gt;
-随后在_layout.swig文件的末尾添加：
-1&lt;script type="text/javascript" src="/js/src/dynamic_b
-          ...
+          <p>如果你正在浏览我的博客网站的话，相信你已经注意到我的背景动态效果了，如果你挺喜欢，并且也想要拥有的话，可以按照下面的步骤来设置：</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -1159,7 +1194,7 @@
                 阅读全文 &raquo;
               </a>
             </div>
-          
+         
           <!--/noindex-->
         
       
@@ -1281,7 +1316,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-11 22:03:30" itemprop="dateModified" datetime="2019-01-11T22:03:30+01:00">2019-01-11</time>
+                <time title="修改时间：2019-01-24 22:51:26" itemprop="dateModified" datetime="2019-01-24T22:51:26+01:00">2019-01-24</time>
               
             
           </span>
@@ -1361,34 +1396,7 @@
 
       
         
-          
-          前言这篇文章主要介绍为Hexo博客网站进行主题美化的一些基本操作，其他一些更深入且零散的美化操作会另行开篇。
-配置文件首先需要区分两个不同的文件：站点配置文件和主题配置文件，他们的名字都是_config.yml，但前者是在/blog目录下，一个是在/blog/themes/xxx文件夹下（xxx为你的主题名字）
-打开Hexo的站点配置文件，你会发现许多关于网站的参数可以在这个_config.yml文件中修改
-在# Site下可以修改你的网站标题、副标题、你的名字等等
-
-
-
-参数
-描述
-
-
-
-
-title
-网站标题
-
-
-subtitle
-网站副标题
-
-
-description
-网站描述
-
-
-au
-          ...
+          <p>这篇文章主要介绍为Hexo博客网站进行主题美化的一些基本操作，其他一些更深入且零散的美化操作会另行开篇。</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -1396,7 +1404,7 @@ au
                 阅读全文 &raquo;
               </a>
             </div>
-          
+         
           <!--/noindex-->
         
       
@@ -1501,12 +1509,24 @@ au
                 
               
 
-              <time title="创建时间：2018-12-28 22:33:46 / 修改时间：15:47:34" itemprop="dateCreated datePublished" datetime="2018-12-28T22:33:46+01:00">2018-12-28</time>
+              <time title="创建时间：2018-12-28 22:33:46" itemprop="dateCreated datePublished" datetime="2018-12-28T22:33:46+01:00">2018-12-28</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-24 23:42:13" itemprop="dateModified" datetime="2019-01-24T23:42:13+01:00">2019-01-24</time>
               
             
           </span>
@@ -1551,7 +1571,7 @@ au
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.7k</span>
+                <span title="本文字数">2.9k</span>
               
 
               
@@ -1565,7 +1585,7 @@ au
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -1586,15 +1606,9 @@ au
 
       
         
-          
-          前期准备安装git由于该blog是基于github+hexo搭建的，因此在电脑上，需要首先安装git：　　
-
-如果你是windows用户，直接从这里下载安装包，并默认安装即可。安装完成后，运行git bash
-如果你是Linux用户，且为基于Debian的发行版，则直接运行  1$ sudo apt-get install git-core
-
-
-配置github本地配置在linux的终端或者windows的git bash中配置自己的个人信息：12$ git config --global user.name &quot;Your Name&quot;$ git config --global
-          ...
+          <p>（转自官方文档）Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<p>而通过将静态博客托管给github，可以让你的博客更方便地被其他人看到。</p>
+<p>以下就是我自己整理的安装Hexo框架，并部署到github的教程：</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -1602,7 +1616,7 @@ au
                 阅读全文 &raquo;
               </a>
             </div>
-          
+         
           <!--/noindex-->
         
       
@@ -1920,12 +1934,24 @@ au
                 
               
 
-              <time title="创建时间：2018-12-25 15:20:50 / 修改时间：08:21:38" itemprop="dateCreated datePublished" datetime="2018-12-25T15:20:50+01:00">2018-12-25</time>
+              <time title="创建时间：2018-12-25 15:20:50" itemprop="dateCreated datePublished" datetime="2018-12-25T15:20:50+01:00">2018-12-25</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-24 22:52:10" itemprop="dateModified" datetime="2019-01-24T22:52:10+01:00">2019-01-24</time>
               
             
           </span>
@@ -1952,7 +1978,7 @@ au
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">488</span>
+                <span title="本文字数">489</span>
               
 
               
@@ -1987,13 +2013,7 @@ au
 
       
         
-          
-          是的，这是我的第一篇博文，按照惯例，自然是要来一声”Hello World!”啦
-12345678#include &lt;iostream&gt;using namespace std;int main() &#123;    cout &lt;&lt; "Hello, World!";    return 0;&#125;
-想开博客的想法，其实半年前就有了，只是那个时候课业实在太忙，于是一直没有付诸实践。碰巧我寒假放得比大部分人要早，闲来无事就注册了个域名，按着教程用hexo部署了博客。
-其实网站的部署，是三天前就搞好了，不过由于拖延症本质，一直到现在才发出第一篇博文。
-目前的话，有以下几
-          ...
+          <p>是的，这是我的第一篇博文，按照惯例，自然是要来一声”Hello World!”啦</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -2001,7 +2021,7 @@ au
                 阅读全文 &raquo;
               </a>
             </div>
-          
+         
           <!--/noindex-->
         
       
@@ -2378,7 +2398,7 @@ More in
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">15k</span>
   
 
   

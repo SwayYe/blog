@@ -8,11 +8,15 @@ categories:
 - 建站历程
 ---
 
+你应该也发现了，我的博客右上角有一个github的图标，点击就可以访问我的github主页，如果你也想要添加的话，可以这样做：
+
+<!-- more -->
+
+# 挑选自己喜欢的图标
+
 在网站右上角添加github图标一共有两种不同的样式，见下图：
 
 ![avatar](https://github.com/SwayYe/Img/raw/master/blog/fork%20me%20on%20github.png)
-
-# 挑选自己喜欢的图标
 
 你可以从[这里](http://tholman.com/github-corners/#)挑选图片样式的图标或者从[这里](https://blog.github.com/2008-12-19-github-ribbons/)挑选文字样式的图标。挑选完之后，复制对应的代码。
 
