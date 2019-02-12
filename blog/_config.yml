@@ -6,7 +6,6 @@
 title: 一葉扁舟　    #网站标题
 subtitle: 一葉扁舟誰念我，今日天涯漂泊         #网站副标题 
 description:  一个再普通不过的平凡人           #网站描述
-keywords:
 author: Sway Ye         #博主的名字
 language: zh-CN         #网站使用的语言
 timezone:
@@ -41,9 +40,8 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  hljs: true # 添加这一行！
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -84,43 +82,3 @@ deploy:
   repo: git@github.com:SwayYe/SwayYe.github.io.git
   branch: master
 
-# 添加豆瓣主頁
-douban:
-  user: 183019582
-  builtin: false
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-  timeout: 10000 
- 
- 
-live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: live2d-widget-model-hijiki
-  display:
-    position: right
-    width: 100
-    height: 160
-    hOffset: -40 #横向偏移
-    vOffset: 0    #纵向偏移
-  mobile:
-    show: true
-
-symbols_count_time:
-    symbols: true # 文章字数
-    time: true     # 阅读时长
-    total_symbols: true # 所有文章总字数
-    total_time: true    # 所有文章阅读总时长
