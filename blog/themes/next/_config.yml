@@ -142,6 +142,9 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  Books: /books || book    #This is your books page
+  Movies: /movies || film  #This is your movies page
+  Games: /games || gamepad  #This is your games page
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
