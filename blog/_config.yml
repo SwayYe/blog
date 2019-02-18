@@ -106,7 +106,7 @@ live2d:
   tagMode: false
   debug: false
   model:
-    use: 33.2017.school
+    use: live2d-widget-model-hijiki
   display:
     position: right
     width: 100
