@@ -115,3 +115,8 @@ live2d:
     vOffset: 0    #纵向偏移
   mobile:
     show: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
