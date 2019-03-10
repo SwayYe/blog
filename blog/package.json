@@ -16,13 +16,15 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-helper-live2d": "^3.1.0",
     "hexo-renderer-ejs": "^0.3.0",
-    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-markdown-it": "^3.4.1",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.2",
+    "hexo-symbols-count-time": "^0.4.4",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-tag-dplayer": "^0.3.3",
     "leancloud-storage": "^3.11.1",
     "live2d-widget-model-hijiki": "^1.0.5",
+    "markdown-it-emoji": "^1.4.0",
     "valine": "^1.3.4"
   }
 }

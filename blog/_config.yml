@@ -112,7 +112,7 @@ live2d:
     width: 100
     height: 160
     hOffset: -40 #横向偏移
-    vOffset: 0    #纵向偏移
+    vOffset: 40    #纵向偏移，正数为上，负数为下
   mobile:
     show: true
 
@@ -120,3 +120,33 @@ search:
   path: search.xml
   field: post
   content: true
+  
+symbols_count_time:
+    symbols: true
+    time: true
+    total_symbols: true
+    total_time: true
+
+# 添加emoji支持
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji  #用emoji插件
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶   
+   
