@@ -604,7 +604,7 @@ gitalk:
 needmoreshare2:
   enable: true
   postbottom:
-    enable: true
+    enable: false
     options:
       iconStyle: box
       boxForm: horizontal
@@ -676,9 +676,9 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
-  id:     #<app_id>
-  color:  fc6423
+  enable: true
+  id:     16323
+  color:  2EA9DF	
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -787,7 +787,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
+  style: flat
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
@@ -1019,8 +1019,8 @@ vendors:
   # Example:
   # needmoreshare2_js: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js
   # needmoreshare2_css: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css
-  needmoreshare2_js:
-  needmoreshare2_css:
+  needmoreshare2_js: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js
+  needmoreshare2_css: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-bookmark
@@ -1065,3 +1065,4 @@ vendors:
 css: css
 js: js
 images: images
+
